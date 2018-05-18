@@ -11,8 +11,8 @@ var tomatoSauceIngredients = ['tomato','garlic','olive oil','basil','oregano']
 var chocolateBars = ['snickers','hundred grand','kitkat','skittles']
 
 function addElementToBeginningOfArray(array,element) {
-  array = [element,...array]
-  return array
+  var newarray = [element,...array]
+  return newarray
 }
 
 function destructivelyAddElementToBeginningOfArray(array,element) {
@@ -20,8 +20,8 @@ function destructivelyAddElementToBeginningOfArray(array,element) {
 }
 
 function addElementToEndOfArray(array,element) {
-  array = [...array,element]
-  return array
+  var newarray = [...array,element]
+  return newarray
 }
 
 function destructivelyAddElementToEndOfArray(array,element) {
@@ -37,6 +37,7 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
 }
 
 function removeElementFromBeginningOfArray(array) {
-  array.slice(1)
-  return array
+  var warray = array.slice(1)
+  return newarray
 }
+
