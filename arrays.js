@@ -30,4 +30,4 @@ function accessElementInArray(array,index) {
   return array[index]
 }
 
-function destructivelyAddElementToEndOfArray
+function destructivelyRemoveElementFromBeginningOfArray
