@@ -20,7 +20,7 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
 }
 
 destructivelyAddElementToBeginningOfArray([1,2,'hi'],'meow')
-
+addElementToEndOfArray([1,2],3)
 function addElementToEndOfArray(array,element) {
   var newarray = [...array,element]
   return newarray
